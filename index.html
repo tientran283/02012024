@@ -11,10 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
+<div id="audio-container" style="display: flex; justify-content: center; align-items: center;">
+  <audio controls src="./musi.mp3" autoplay loop></audio>
+</div>
 <body>
     
     <div id="drag-container">
         <div id="spin-container">
+            
           <img src="./img/001.jpg" alt="">
           <img src="./img/002.jpg" alt="">
           <img src="./img/003.jpg" alt="">
@@ -23,19 +27,27 @@
           <img src="./img/006.jpg" alt="">
           <img src="./img/007.jpg" alt="">
           <img src="./img/008.png" alt="">
-
-            <p id = "demo"> NGày</p>
+            
           
+            <p id = "demo"></p>
+          
+            
         </div>
+            
         
-        <div id="ground"></div>
-      </div>
+        <div id="ground">
       
+        </div>
+      </div>
+
       <div id="music-container"></div>
       <div id="canva">
       <canvas id="canvas"></canvas>
     </div>
-    <audio src="./music.mp3" autoplay loop></audio>
+    
     <script src="main.js"></script>
-</body>
+</body>  
+<div id="audio-container" style="display: flex; justify-content: center; align-items: center;">
+  <audio controls src="./music.mp3" autoplay loop></audio>
+</div>
 </html>
