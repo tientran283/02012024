@@ -421,7 +421,7 @@ draw();
 
 
 // Tạo một đối tượng Date với ngày nhất định (định dạng yyyy/mm/dd)
-var date = new Date("2024/01/30");
+var date = new Date("2024/01/31");
 
 // Tạo một hàm để đếm thời gian từ ngày nhất định đến ngày hiện tại
 function countTime() {
@@ -449,29 +449,3 @@ window.onload = countTime;
 
 
 
-
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-  
-  var days = document.querySelector('.days span');
-  var hour = document.querySelector('.hour');
-  var min = document.querySelector('.min');
-  var second = document.querySelector('.second');
-
-  var startDate = new Date(2024, 2, 1);
-  days.innerText = Math.floor((new Date - startDate)/86400000);
-  countTime();
-
-  function countTime() {
-    let today = new Date();
-    let ms = (today - startDate) % 86400000;
-    hour.innerText = Math.floor(ms / 3600000);
-    min.innerText = Math.floor(ms % 3600000 / 60000);
-    second.innerText = Math.floor(ms % 3600000 % 60000 / 1000);
-  }
-
-  setInterval(countTime, 1000);
-
-}, false);
