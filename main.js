@@ -421,7 +421,7 @@ draw();
 
 
 // Tạo một đối tượng Date với ngày nhất định (định dạng yyyy/mm/dd)
-var date = new Date("2024/02/01");
+var date = new Date("2024/01/30");
 
 // Tạo một hàm để đếm thời gian từ ngày nhất định đến ngày hiện tại
 function countTime() {
