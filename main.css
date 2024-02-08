@@ -155,7 +155,9 @@
 p {
     font-family: 'Dancing Script', cursive;
     font-family: 'Rampart One', cursive;
-    font-size: 3vw; 
+    font-size: 3vw;
+    width: 180%;
+    text-align: center;
 
 }
 
