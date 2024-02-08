@@ -438,7 +438,7 @@ function countTime() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Hiển thị kết quả trên một phần tử HTML có id là "demo"
-  document.getElementById("demo").innerHTML = "Bám nhau " + days + " ngày rồiđó<3";
+  document.getElementById("demo").innerHTML = "Bám nhau được " + days + " ngày rồi đó<3";
 
   // Cập nhật kết quả mỗi giây
   setTimeout(countTime, 1000);
